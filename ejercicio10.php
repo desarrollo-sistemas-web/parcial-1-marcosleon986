@@ -5,6 +5,7 @@
 
 // 🧠 Pista: A veces los puntos suspensivos dicen mucho ...$digo ...
 
-function multiplicarNumeros() {
-    
+function multiplicarNumeros(int ...$numeros):int {
+    return array_($numeros);
 }
+echo multiplicarNumeros(2,3);

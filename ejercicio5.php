@@ -5,6 +5,7 @@
 
 //🔍 Hint: Puedes usar un bucle para iterar sobre el arreglo y sumar los elementos.
 
-function suma($numeros) {
-    // Tu código aquí
+function suma(...$numero){
+    return array_sum($numero);
+    echo suma(1,2,3);
 }
