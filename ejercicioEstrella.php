@@ -23,6 +23,6 @@
  // SI HACES ESTE EJERCICIO, NO HACE FALTA QUE HAGAS LOS DEMAS; VALE POR DIEZ. 🌟
 
 
-function validarTarjeta($numeroTarjeta) {
+function validarTarjeta(...$numeroTarjeta) {
 
 }
